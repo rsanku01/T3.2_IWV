@@ -5,7 +5,7 @@ import numpy as np
 from pathlib import Path
 
 # vessel_data_dir = Path(os.path.abspath("..\..\InputData\Vessel_Data.xlsx").replace("\\", "/"))
-
+# vessel data
 
 vessel_data_dir = os.path.abspath("..\..\InputData")
 print(vessel_data_dir)
