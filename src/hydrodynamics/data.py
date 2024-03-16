@@ -15,15 +15,7 @@ print(vessel_data_)
 
 df = pd.read_excel(vessel_data_, sheet_name="MOTOR VESSELS")  # "../../InputData/Vessel_Data.xlsx"/
 print(df)
-vessel_dict = {
-    "Vessel type": None,
-    "Length": None,
-    "Breadth": None,
-    "Design Draft": None,
-    "Displacement": None,
-    "Speed": None,
-    "Block Coefficient": None,
-}
+
 vessel_derived_dict = {
     "Wetted Surface Area": None,
     "Prismatic Coefficient": None,
